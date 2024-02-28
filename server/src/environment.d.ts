@@ -5,6 +5,7 @@ declare global {
       AUTH_PASS: string;
       AUTH_REALM: string;
       COMPOSE_DIR: string;
+      PORT: number;
     }
   }
 }

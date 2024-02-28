@@ -59,7 +59,7 @@ app
       stream.close();
     });
   })
-  .listen(3000);
+  .listen(process.env.PORT);
 
 console.log(
   `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`,
